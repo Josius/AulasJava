@@ -4,7 +4,7 @@
 //BOA PRÁTICA
 //Nome de método sempre começa com um verbo
 
-//Método exemplo:
+//Método simples, exemplo:
 /*
 POR SER VOID, NÃO POSSUI RETORNO
 void exibirAutonomia(AQUI SERIA OS PARÂMETROS DO MÉTODO){
