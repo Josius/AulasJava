@@ -15,7 +15,7 @@ também  estamos chamando o construtor dessa classe, que é o método que vai in
 	van.consumoCombustivel = 0.2;
 */
 
-//CONSTRUTOR SIMPLES E VAZIO (ver linha 28): 
+//CONSTRUTOR SIMPLES E VAZIO (ver linha 30): 
 //O java, por padrão, já oferece um construtor simples e vazio, que é por causa da classe object, que é a mãe de todas as classes do java.
 //Carro(){} >>>>>>> construtor simples e vazio é um método sem retorno e sem parâmetro algum.
 /*
