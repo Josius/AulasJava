@@ -1,5 +1,5 @@
 //AULA 34 - ORIENTAÇÃO A OBJETOS: VARIAVEIS E METODOS ESTATICOS
-
+//OBS: A variavel estatica (static) torna-se a mesma variavel para todas as instancias. Ou seja, o atributo estatico vai ser compartilhado com TODAS AS INSTANCIAS DA CLASSE.
 //Uma forma de como declarar a classe MinhaCalculadora e abaixo, um forma de usar a classe, porem de forma um pouco fora do padrao
 /*
 public class MinhaCalculadora{
