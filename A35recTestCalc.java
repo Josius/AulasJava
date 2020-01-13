@@ -1,4 +1,4 @@
-//AULA 35 - RECURSIVIDADE
+//AULA 35 - ORIENTAÇÃO A OBJETOS: RECURSIVIDADE
 
 public class A35recTestCalc{
 	public static void main(String[] args){
