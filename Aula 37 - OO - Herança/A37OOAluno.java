@@ -1,4 +1,4 @@
-//AULA 37 - ORIENTAÇÃO A OBJETOS: Herança
+//AULA 37 - ORIENTAÇÃO A OBJETOS: HERANCA
 //Para usar a heranca, eh necessario usar a palavra chave 'extends' na declaracao da classe seguinda do nome da classe
 
 public class A37OOAluno extends A37OOPessoa{
