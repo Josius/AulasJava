@@ -1,7 +1,8 @@
 //AULA 44 - ORIENTAÇÃO A OBJETOS: INTERFACES
 
-//INTERFACE - E uma classe abstrata que somente possui metodos abstratos (classes AnimalEstimacao e AnimalDomesticado)
-//Todos os metodos de uma interface sao 'public' e 'abstract', logo, nao precisam dessas palavras em suas declaracoes de metodos
+//INTERFACE - E uma classe abstrata que somente possui somente metodos abstratos (classes AnimalEstimacao e AnimalDomesticado)
+//Todos os metodos/atributos de uma interface sao 'public', 'static', 'final' e 'abstract', logo, nao precisam dessas palavras em suas declaracoes de metodos
+//Os atributos das interface sao 'public final <tipo> <NOME>', ou seja, eles sao constantes
 
 //IMPLEMENTS - A classe que ira usar a interface precisa dessa palavra em sua assinatura:
 //		'public class Cachorro extends Mamifero implements AnimalDomesticado, AnimalEstimacao'
