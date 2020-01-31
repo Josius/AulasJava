@@ -21,9 +21,12 @@ public class Formulario{
 	/*
 	enum Genero{FEMININO, MASCULINO;}
 	
+	
+	*/
+	
 	private String nome;
 	private Genero genero;
-	*/
+	
 	public String getNome(){
 		return nome;
 	}
