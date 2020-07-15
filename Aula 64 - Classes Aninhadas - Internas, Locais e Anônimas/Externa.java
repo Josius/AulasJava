@@ -20,7 +20,7 @@ public class Externa{
 	public static void main(String[] args){
 		
 		Externa externa = new Externa();
-		Interna interna = externa.new Interna(); //se a classe interna fosse estatica, nao precisariamos da instancia da classe externa para instanciar a classe interna
+		Interna interna = externa.new Interna(); //se a classe interna fosse estatica, nao precisariamos da instancia da classe externa para instanciar a classe interna. Como não é estatica, precisamos instanciar a Externa e com a intancia da externa instanciamos a interna.
 		
 		interna.imprimeTexto();
 	}
