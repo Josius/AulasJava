@@ -2,19 +2,27 @@ public class Teste{
 	
 	public static void main(String[] args){
 		
-		Thread t1 = new Thread(new MinhaThreadRunnable("#1", 500));
-		Thread t2 = new Thread(new MinhaThreadRunnable("#2", 700));
-		Thread t3 = new Thread(new MinhaThreadRunnable("#3", 800));
-	
-		//t1.setPriority(5); //prioridade maior, maior parte dos casos na execucao, ela sera executada primariamente
-		t1.setPriority(Thread.MAX_PRIORITY);//com constante da classe Thread  para priordade máx, sendo que há normal e mín.
-		t2.setPriority(3);
-		t3.setPriority(1);
-		
-		
-		t1.start();
-		t2.start();
-		t3.start();
-		
+		 MinhaThreadRunnable thread1 = new MinhaThreadRunnable("#1", 500);
+		 MinhaThreadRunnable thread2 = new MinhaThreadRunnable("#2", 500);
+		 MinhaThreadRunnable thread3 = new MinhaThreadRunnable("#3", 500);
+		 
+		 Thread t1 = new Thread(thread1);
+		 Thread t2 = new Thread(thread2);
+		 Thread t3 = new Thread(thread3);
+		 
+		 t1.start();
+		 t2.start();
+		 t3.start();
+		 
+		 while(t1.isAlive() || t2.isAlive() || t3.isAlive()){
+			 
+			 try{
+				 Thread.sleep(200);
+			 }catch(InterruptedException e){
+				 e.printStackTrace();
+			 }
+		 }
+		 
+		 System.out.println("Programa executado");
 	}
 }
