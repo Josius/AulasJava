@@ -36,7 +36,7 @@ public class MinhaThread extends Thread{
 	public void run(){
 		
 		//System.out.println("Executando a thread");
-
+		System.out.println(nome + " foi iniciada");
 // 6-Colocando a thread para dormir		
 		try{
 			for(int i=0; i<6; i++){
@@ -48,6 +48,7 @@ public class MinhaThread extends Thread{
 			}
 		}catch(InterruptedException e){
 			e.printStackTrace();
+			System.out.println(nome + " foi interrompida");
 		}
 		
 		System.out.println(nome + " terminou a execucao");

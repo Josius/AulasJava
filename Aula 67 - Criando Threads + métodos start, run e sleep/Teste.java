@@ -15,5 +15,7 @@ public class Teste{
 		MinhaThread thread2 = new MinhaThread("Thread #2", 900);
 		
 		MinhaThread thread3 = new MinhaThread("Thread #3", 500);
+		
+		
 	}
 }
