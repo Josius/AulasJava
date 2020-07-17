@@ -3,6 +3,7 @@ public class Calculadora{
 	private int soma;
 	
 //	Sem a palavra chave 'synchronized' abaixo, as threads irão acessar o atributo 'soma' ao mesmo tempo, somando assim seus valores e resultando em erro. Com a palavra chave as threads acessaram uma de cada vez.
+	
 	public synchronized int somaArray(int[] array){
 		
 		soma = 0;
