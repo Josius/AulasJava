@@ -8,7 +8,7 @@ public class MinhaThreadRunnable implements Runnable{
 		this.nome = nome;
 		this.tempo = tempo;
 //		Thread t = new Thread(this);
-//		t;start();
+//		t.start();
 	}
 	
 	public void run(){

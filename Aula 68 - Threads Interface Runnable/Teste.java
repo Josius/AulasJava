@@ -6,7 +6,7 @@ public class Teste{
 		//Thread t1 = new Thread(ew MinhaThreadRunnable("#1", 500));
 		//Thread t1 = new Thread(thread1);
 		//t1.start();
-		MinhaThreadRunnable thread2 = new MinhaThreadRunnable("#2", 600);
-		MinhaThreadRunnable thread3 = new MinhaThreadRunnable("#3", 800);
+		MinhaThreadRunnable thread2 = new MinhaThreadRunnable("#2", 100);
+		MinhaThreadRunnable thread3 = new MinhaThreadRunnable("#3", 1500);
 	}
 }
